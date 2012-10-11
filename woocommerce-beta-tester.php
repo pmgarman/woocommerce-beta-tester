@@ -4,7 +4,7 @@
 Plugin Name: WooCommerce Beta Tester
 Plugin URI: http://www.patrickgarman.com/wordpress-plugins/woocommerce-beta-tester/
 Description: Update your WooCommerce plugin straight from the GitHub repository and run the bleeding edge version. ** This is not recommended for production sites.
-Version: 0.1
+Version: 0.2
 Author: Patrick Garman
 Author URI: http://www.patrickgarman.com/
 License: GPLv2
@@ -26,17 +26,9 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
-add_action('init', 'github_plugin_updater_test_init');
-function github_plugin_updater_test_init() {
-
+add_action('init', 'wc_beta_tester_init');
+function wc_beta_tester_init() {
 	require_once('classes/class-wc-github-updater.php');
-
-	define('WP_GITHUB_FORCE_UPDATE', true);
-
-	if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
-
-		new WC_GitHub_Updater( array() );
-		
-	}
-
+	if( is_admin() )
+		new WC_GitHub_Updater();
 }

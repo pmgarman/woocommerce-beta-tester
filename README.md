@@ -6,6 +6,9 @@ WooCommerce Plugin Updater is a WordPress plugin designed to upgrade WooCommerce
 Changelog
 ===========
 
+### 0.2
+* Bleeding edge updater beta
+
 ### 0.1
 * Proof of Concept
 
