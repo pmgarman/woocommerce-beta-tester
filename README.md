@@ -12,7 +12,7 @@ Changelog
 Credits
 ===========
 
-This class is built and maintained by [Patrick Garman](http://www.patrickgarman.com "Patrick Garman") and extends and builds off of the [WordPress GitHub Plugin Updater](https://github.com/jkudish/WordPress-GitHub-Plugin-Updater "WordPress GitHub Plugin Updater") class developed and maintained by [Joachim Kudish](http://jkudish.com "Joachim Kudish").
+This plugin is built and maintained by [Patrick Garman](http://www.patrickgarman.com "Patrick Garman") and builds off of the [WordPress GitHub Plugin Updater](https://github.com/jkudish/WordPress-GitHub-Plugin-Updater "WordPress GitHub Plugin Updater") class developed and maintained by [Joachim Kudish](http://jkudish.com "Joachim Kudish").
 
 License
 ===========
