@@ -1,7 +1,7 @@
 WooCommerce Beta Tester
 =======================
 
-WooCommerce Plugin Updater is a WordPress plugin designed to upgrade WooCommerce right from GitHub giving you the ability to run beta and bleeding edge versions of WooCommerce. This is great for development and testing of WooCommerce.
+WooCommerce Beta Tester is a WordPress plugin designed to upgrade WooCommerce right from GitHub giving you the ability to run beta and bleeding edge versions of WooCommerce. This is great for development and testing of WooCommerce.
 
 Changelog
 ===========
